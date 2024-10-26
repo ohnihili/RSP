@@ -1,14 +1,11 @@
 #ifndef FILENAME_H
 #define FILENAME_H
 
-#include "node.h"
+class Node {
 
-class linkedlist
-{
     public:
-        Node *head;
-
-
+    Node *next;
+    int data;
 };
 
 #endif // FILENAME_H
