@@ -9,8 +9,24 @@ class linkedlist
         Node* head;
         linkedlist();
 
-        void insert(Node* node);
-        int search(int term);
+        void append(Node* node);
+        void prepend(Node* node);
+        void insert_at(Node* node, int pos);
+        void remove(int data);
+        void remove_at(int pos);
+        void reverse();
+        void print();
+        void clear();
+        void sort();
+
+        Node* search(int term);
+        int size();
+        bool is_empty();
+
+        
+
+
+
 
 };
 
