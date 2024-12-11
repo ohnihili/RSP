@@ -30,4 +30,4 @@ class linkedlist
 
 };
 
-#endif // FILENAM
+#endif // LINKEDLIST_H
