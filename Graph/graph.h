@@ -7,10 +7,11 @@ using namespace std;
 
 class graph
 {
-    public:
+    private:
         unordered_map<int, vector<int>> adjList;
         bool directed;
 
+    public:
         graph(bool directed);
 
         void add_vertex(int v);

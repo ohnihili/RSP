@@ -7,8 +7,6 @@ int main()
 {
     graph g(false);
 
-    cout << g.directed << endl << endl;
-
     g.add_vertex(1);
     g.add_vertex(5);
     g.add_vertex(2);
