@@ -146,11 +146,6 @@ void linkedlist::remove_at(int pos)
     return;
 }
 
-void linkedlist::reverse()
-{
-
-}
-
 void linkedlist::print()
 {
     if (is_empty())
@@ -179,12 +174,6 @@ void linkedlist::clear()
     }
 
     return;
-}
-
-void linkedlist::sort()
-{
-
-
 }
 
 Node* linkedlist::search(int term)
